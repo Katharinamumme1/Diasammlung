@@ -1,19 +1,10 @@
 body{
-    background-color: rgb(225, 225, 223);
+    background-color: rgb(40, 110, 208);
     height: 100vh;
     width: 100vw;
     
 }
 
-.pattern {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: -10;
-    padding: 0px;
-    background-image: linear-gradient(var(--primary-color) 0.5px, transparent 0.5px), linear-gradient(to right, var(--primary-color) 0.5px, var(--secondary-color) 0.5px);
-    background-size: 10.025vw 9vh;
-}
 
 .diaarchive{
     position: absolute;
@@ -33,7 +24,7 @@ margin-top: 20vw;
 
     filter: blur();
     filter: grayscale();
-    filter: drop-shadow();
+box-shadow: 10px 10px 5px rgb(101, 112, 116);
     transform: rotateY(50deg);
     transform: skewy(5deg);
 
@@ -48,14 +39,30 @@ margin-top: 20vw;
 }
 .dia:active {
 
-    transform: scale(300%);
+    transform: scale(400%);
     z-index: 10;
-
-
-
+    transition: ease-in-out 0.5s;
 }
+
 
 img{
     height: 100%;
     width: 100%;
+}
+
+span{
+    background-color: rgba(255, 228, 196, 0);
+    margin-bottom: 30vh;
+    font-size: 10rem;
+}
+.typo{
+    font-size: 4rem;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+#obenrechts{
+    margin-top: 5;
+ margin-left: 90vw;
 }
