@@ -1,7 +1,8 @@
 body{
     background-color: rgb(40, 110, 208);
-    height: 100vh;
-    width: 100vw;
+    height: 300vh;
+    width: 300vw;
+    overflow: scroll;
     
 }
 
@@ -22,9 +23,11 @@ margin-top: 20vw;
     border:white solid 2vh;
     border-bottom: white solid 8vh;
 
+
+    border-radius: 5%;
     filter: blur();
     filter: grayscale();
-box-shadow: 10px 10px 5px rgb(101, 112, 116);
+box-shadow: 10px 10px 5px rgba(101, 112, 116, 0.327);
     transform: rotateY(50deg);
     transform: skewy(5deg);
 
