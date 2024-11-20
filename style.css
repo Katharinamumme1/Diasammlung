@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(225, 225, 223);
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.pattern {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    padding: 0px;
+    background-image: linear-gradient(var(--primary-color) 0.5px, transparent 0.5px), linear-gradient(to right, var(--primary-color) 0.5px, var(--secondary-color) 0.5px);
+    background-size: 10.025vw 9vh;
+}
+
+.diaarchive{
+    position: absolute;
+    display: flex;
+flex-direction: row;
+
+}
+
+.dia{
+    width: 10vw;
+    height: 10vw;
+margin-right: -5vh;
+margin-left: -5vw;
+margin-top: 20vw;
+    border:white solid 2vh;
+    border-bottom: white solid 8vh;
+
+    filter: blur();
+    filter: grayscale();
+    filter: drop-shadow();
+    transform: rotateY(50deg);
+    transform: skewy(5deg);
+
+}
+.dia:hover{
+    transform: skewy( -40deg);
+    transform: scale(140%) ;
+    z-index: 10;
+    margin-left: 2vw;
+    margin-right:2vw;
+    filter: none;
+}
+.dia:active {
+
+    transform: scale(300%);
+    z-index: 10;
+
+
+
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
