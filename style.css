@@ -24,7 +24,8 @@ margin-top: 20vw;
     border-bottom: white solid 8vh;
 
 
-    border-radius: 5%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
     filter: blur();
     filter: grayscale();
 box-shadow: 10px 10px 5px rgba(101, 112, 116, 0.327);
