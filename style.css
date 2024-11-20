@@ -59,14 +59,3 @@ span{
     margin-bottom: 30vh;
     font-size: 10rem;
 }
-.typo{
-    font-size: 4rem;
-    font-family:Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    font-weight: lighter;
-}
-
-#obenrechts{
-    margin-top: 5;
- margin-left: 90vw;
-}
